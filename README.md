@@ -22,16 +22,18 @@ dm/dt = k<sub>m</sub> – γ<sub>m</sub>·m
 dp/dt = k<sub>p</sub>·m – γ<sub>p</sub>·p
 </pre>
 
-| Symbol        | Definition                        | Units                    |
-|---------------|-----------------------------------|--------------------------|
-| m             | mRNA concentration                | molecules (or nM)        |
-| p             | Protein concentration             | molecules (or nM)        |
-| k<sub>m</sub> | mRNA production rate              | molecules·time⁻¹         |
-| γ<sub>m</sub> | mRNA degradation rate             | time⁻¹                   |
-| k<sub>p</sub> | Protein production rate per mRNA  | molecules·time⁻¹·(mRNA)⁻¹ |
-| γ<sub>p</sub> | Protein degradation rate          | time⁻¹                   |
+| Symbol        | Definition                       |
+|---------------|----------------------------------|
+| m             | mRNA concentration               |
+| p             | Protein concentration            |
+| k<sub>m</sub> | mRNA production rate             |
+| γ<sub>m</sub> | mRNA degradation rate            |
+| k<sub>p</sub> | Protein production rate per mRNA |
+| γ<sub>p</sub> | Protein degradation rate         |
 
-**Initial conditions:**  
-<pre>
-m(0) = m₀,   p(0) = p₀
-</pre>
+### 4. How to find the Steady State
+dm/dt = 0 -> m = k<sub>m/γ<sub>m
+
+dp/dt = 0 -> p = k<sub>p * m/γ<sub>p --> p = k<sub>p * k<sub>m / γ<sub>p  * γ<sub>m
+
+
